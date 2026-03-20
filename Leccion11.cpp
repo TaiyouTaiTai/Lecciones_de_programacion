@@ -1,0 +1,16 @@
+//Estructuras condicionales
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numero, dato = 5;
+
+    cout << "Ingrese el numero: "; cin >> numero;
+
+    if (numero <= dato) {
+        cout << "El numero es menor o igual a 5" << endl;
+    } else {
+        cout << "El numero es mayor a 5" << endl;
+    }
+    return 0;
+}
